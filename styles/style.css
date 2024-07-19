@@ -1,4 +1,167 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 body{
     font-family: "Inter", sans-serif;
+    background-color: black;
+}
+
+/* Miama Font */
+
+@font-face {
+    font-family: 'Miama';
+    src:url('../fonts/Miama.ttf.woff') format('woff'),
+        url('../fonts/Miama.ttf.svg') format('svg'),
+        url('../fonts/Miama.ttf.eot')format('embedded-opentype');
+        
+    font-weight: normal;
+    font-style: normal;
+}
+/* h1 { 
+    font-family: 'Miama';
+ } */
+  /* shared styles */
+
+  *{
+    margin: 0;
+}
+
+h1,p,button{
+    color: white;
+}
+.container{
+    width: 90%;
+    margin: 2rem auto;
+    border-radius: 1rem;
+}
+
+/* navbar styles */
+.header-container{
+    background:linear-gradient(180.00deg, rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%);
+}
+.title h3{
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(230, 83, 60);
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-options{
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 2rem;
+    margin: 0 10px;
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+    font-size: 1rem;
+    /* color: white; */
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+.span{
+    background-color:  rgb(230, 83, 60);
+    border:2px solid coral;
+    border-radius: 2rem;
+    width: 4rem;
+    height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+.nav-options p{
+    cursor: pointer;
+}  
+.ham-burger{
+    display: none;
+}
+/* Banner Section */
+.stay-healthy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+}
+.banner-container{
+    width: 800px;
+    height: 500px; 
+    text-align: left;
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 3rem;
+    margin-bottom: 3.5rem;    
+}
+
+.shape{
+        font-family: 'Miama'; 
+        font-weight: normal;
+}
+.banner-description{
+    margin-bottom:2rem;
+    line-height: 1.5rem;
+}
+
+.btn-primary{
+    background-color:rgb(230, 83, 60) ;
+    margin-right: 1rem ;
+    padding:0.5rem 1rem ;
+    border-radius:2rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-secondary{
+    padding:0.5rem 1rem ;
+    border-radius:2rem;
+    font-weight: 600;
+    cursor: pointer;
+    color:black;
+}
+
+.box-1{
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    padding: 10px;
+    backdrop-filter: blur(20px);
+    width: 145px;
+    height: 80px;
+    border: none;
+    translate: 240px -420px;
+}
+
+.box-2{
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    padding: 10px 15px;
+    backdrop-filter: blur(20px);
+    width: 185px;
+    height: 90px;
+    border: none;
+    translate: -110px -240px;
+    display: flex;
+    gap: 1rem;
+}
+
+.number{
+    font-size:2rem;
+    font-weight: 800;
+}
+.free-video{
+    font-size:0.75rem;
+}
+
+.stay-healthy i{
+    color: coral;
+    font-size: 2rem;
+    transform:translate(0px, 15px);
 }
