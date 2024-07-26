@@ -363,7 +363,7 @@ h1,h3,p,button,h4,h5,table{
  }
 
  .card .card-title{
-  background-color:orangered; 
+  background-color:rgb(230, 50, 50) ; 
   height: 30px;
   padding: 0.25rem;
  }
