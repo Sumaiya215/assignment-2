@@ -15,20 +15,18 @@ body{
     font-weight: normal;
     font-style: normal;
 }
-/* h1 { 
-    font-family: 'Miama';
- } */
+
   /* shared styles */
 
   *{
     margin: 0;
 }
 
-h1,p,button{
+h1,h3,p,button,h4,h5,table{
     color: white;
 }
 .container{
-    width: 90%;
+    width: 70%;
     margin: 2rem auto;
     border-radius: 1rem;
 }
@@ -102,6 +100,8 @@ h1,p,button{
         font-weight: normal;
 }
 .banner-description{
+    font-size: 0.75rem;
+    color: grey;
     margin-bottom:2rem;
     line-height: 1.5rem;
 }
@@ -109,7 +109,7 @@ h1,p,button{
 .btn-primary{
     background-color:rgb(230, 83, 60) ;
     margin-right: 1rem ;
-    padding:0.5rem 1rem ;
+    padding:1rem 2rem ;
     border-radius:2rem;
     font-weight: 600;
     border: none;
@@ -117,11 +117,13 @@ h1,p,button{
 }
 
 .btn-secondary{
-    padding:0.5rem 1rem ;
+    padding:1rem 2rem ;
     border-radius:2rem;
     font-weight: 600;
+    color:white;
+    background-color: black;
+    border: 1px solid white;
     cursor: pointer;
-    color:black;
 }
 
 .box-1{
@@ -165,3 +167,270 @@ h1,p,button{
     font-size: 2rem;
     transform:translate(0px, 15px);
 }
+/* change your habits section */
+.change-habits-container{
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+
+}
+
+  .section-title{
+    text-align: center;
+    line-height: 2rem;
+  }
+
+  .section-title h3{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+  }
+  .section-title p{
+    color: gray;
+    font-size: 0.75rem;
+    margin-bottom: 3rem;
+    line-height: 1.5rem;
+  }
+  .cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .card-items{
+    text-align: center;
+  }
+.card-items h5{
+    margin-top: 1rem;
+}
+  .card-items p{
+    color: gray;
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+  }
+  .image{
+    width: 70%;
+    border-radius: 50%;
+  }
+  /* Run an extra Mile section */
+  .run-section{
+   margin: 0 8rem;
+  }
+  .run-container{
+    margin: 5rem auto;
+    width: 80%;
+    height: 250px;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+.run-text h3{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.run-text p{
+    font-size: 0.75rem;
+    color: grey;
+    line-height: 20px;
+    margin-bottom: 1.5rem;
+}
+
+  .img-2{
+    width: 350px;
+    height: 250px;
+    border-radius: 1rem;
+  }
+
+  /* BMI Calculator Section */
+   .BMI-container{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+   }
+
+   .BMI-title{
+    margin-left: 16rem;
+   }
+   .BMI-title h3{
+    font-size:2rem;
+    font-weight: 800;
+    margin-bottom:1rem;
+   }
+
+   .BMI-title p{
+    font-size: 0.75rem;
+    color: grey;
+    margin-bottom: 3rem;
+   }
+  .BMI-box{
+    width: 100%;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+  }
+  table{
+    border-collapse: collapse;
+}
+  th,td{
+    border: 1px solid darkgrey;
+    padding: 5px 10px;
+    text-align: left;
+    margin-bottom: 4rem;
+  }
+  td{
+    font-size: 0.75rem;
+    color: grey;
+  }
+  caption{
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+ .BMI-form h3{
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ }
+
+ .BMI-form p{
+    font-size: 0.75rem;
+    color: grey;
+    margin-bottom: 1.5rem;
+ }
+ .form-details{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap:0.5rem;
+    margin-bottom: 1.5rem;
+ }
+ .form-details input,
+ .form-details #select1,
+ .form-details #select2
+ {
+    /* border: 1px solid grey; */
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 2rem;
+    color: grey;
+    font-weight: normal;
+ }
+ input::placeholder{
+    padding: 1rem;
+    color: grey;
+ }
+
+ .form-details #select2{
+  grid-column: span 2;
+
+ }
+  /* Meet Our Team Section*/
+  .Our-team{
+    margin-bottom: 6rem ;
+  }
+.images-container{
+    margin:3rem auto;
+    width:70%;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 1rem;
+    padding:1rem; 
+    
+}
+.image{
+  position: relative;
+}
+
+  .Trainer-name{
+    font-weight: 800;
+    margin-bottom: 1rem;
+    position: absolute;
+    top:75%;
+    left:10%;
+    transform:translate(75% 10%);
+  }
+  .trainer{
+    font-size: 0.75rem;
+    color: grey;
+    position: absolute;
+    top:85%;
+    left:10%;
+    transform:translate(85% 10%);
+  }
+
+  .img-1{
+    width: 280px;
+    height: 230px;
+    border-radius: 1rem;
+  }
+
+/* Footer Section */
+.footer{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-top: 3rem;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.title p{
+    font-size: 0.75rem;
+    color: grey;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    line-height: 1rem;
+}
+h4{
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.service p{
+    color:grey;
+    line-height: 2rem;
+}
+
+#hr{
+    color:gray;
+    margin-left: 7.5rem;
+    text-align:center;
+    /* font-weight: 100; */
+    margin-top: 2rem;
+}
+.copyright{
+    text-align: center;
+    margin: 1rem 0;
+    color: grey;
+}
+
+/* Responsive Design */
+
+/* @media screen and(max-width:576px) {
+  .nav-options{
+    display: none;
+}
+.ham-burger{
+    display: block;
+}
+.ham-burger i{
+  font-size: 26px;
+}
+h3{
+  font-size: 26px;
+}
+  
+} */
