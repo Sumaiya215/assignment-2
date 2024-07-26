@@ -333,6 +333,71 @@ h1,h3,p,button,h4,h5,table{
   grid-column: span 2;
 
  }
+ /* Membership Plans Section */
+.section-title{
+  margin:3rem auto;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 2rem;
+}
+ .cards-container{
+  width: 70%;
+  height: 250px;
+  margin: 3rem auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+ }
+ .card{
+  box-sizing: border-box;
+  width: 170px;
+  background-color: white;
+
+ }
+ .card .card-title,
+ .card .card-info,
+ .card .card-info2 {
+  text-align: center;
+ }
+
+ .card .card-title{
+  background-color:orangered; 
+  height: 30px;
+  padding: 0.25rem;
+ }
+ .card .card-info{
+  color: black;
+  margin-bottom: 0.5rem;
+  font-weight: 800;
+  font-size: 1.25rem;
+ }
+ .card .card-info2{
+  color: black;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 0.75rem;
+ }
+ ul li{
+  font-size: 0.75rem;
+  font-weight: 600;
+ }
+
+ li i{
+  color: orangered;
+ }
+ .btn-card{
+  margin-left: 3rem;
+  margin-top: 1rem;
+  color: orangered;
+  border: 2px solid orangered;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+ }
   /* Meet Our Team Section*/
   .Our-team{
     margin-bottom: 6rem ;
@@ -419,7 +484,7 @@ h4{
 
 /* Responsive Design */
 
-/* @media screen and(max-width:576px) {
+@media screen and(max-width:576px) {
   .nav-options{
     display: none;
 }
@@ -433,4 +498,4 @@ h3{
   font-size: 26px;
 }
   
-} */
+}
